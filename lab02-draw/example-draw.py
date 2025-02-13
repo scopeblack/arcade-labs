@@ -85,6 +85,7 @@ arcade.draw_circle_filled(650, 90, 25, arcade.color.BLACK_OLIVE)
 arcade.draw_circle_filled(650, 90, 18, arcade.color.OLD_LACE)
 arcade.draw_circle_filled(650, 90, 5, arcade.color.RED)
 
+
 # --- Finish drawing ---
 arcade.finish_render()
 
