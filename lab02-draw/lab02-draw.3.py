@@ -11,6 +11,7 @@ import random
 # Set the and dimensions (width and height)
 arcade.open_window(1800, 1000, "Mi-dibujo")
 
+
 # Set the background color
 arcade.set_background_color(arcade.color.DARK_MIDNIGHT_BLUE)
 # Get ready to draw

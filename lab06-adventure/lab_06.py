@@ -27,10 +27,9 @@ def main():
     current_room = 0
     done = False
     while not done:
-
         print()
         print(room_list[current_room].description)
-        wannaDoNext = input("What you wanna do (n,s,w,e,north,south,east,west) ")
+        wannaDoNext = input("What you wanna do (n,s,w,e,north,south,east,west)")
         if wannaDoNext.lower() == "north" or wannaDoNext.lower() == "n":
             next_room = room_list[current_room].north
             if next_room == None:
